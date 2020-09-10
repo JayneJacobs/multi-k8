@@ -35,3 +35,16 @@ travis encrypt-file service-account.json -r USERNAME/REPO --pro
 If you are getting the iv undefined error after a deployment, you'll need to run through the entire encryption process again, instead, following the instructions above.
 
 Important Note: You can also get an iv undefined error if you've passed the wrong repo to the file encryption or passed a repo name with a typo in it.
+
+
+## Fix For Failing Travis Builds
+In the upcoming lecture we will be adding a script to our .travis.yml file. Similar to our previous projects that ran tests using Travis, we need to make sure the tests exit after running and don't cause our builds to fail.
+
+Make sure to change this script:
+
+script:
+  - docker run USERNAME/docker-react npm test -- --coverage
+To use the CI flag and remove coverage:
+
+script:
+  - docker run -e CI=true USERNAME/docker-react npm test

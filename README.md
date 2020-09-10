@@ -34,7 +34,18 @@ travis encrypt-file ssh/jayneservice-account.json -r JayneJacobs/multi-k8
 
 ##  [Fixes for Travis "iv undefined" or"repository not known"](docs/../k8s/GoogleCloud/fixesfortravis.md)
 
+[Using GIT_SHA](k8s/GoogleCloud/Readme.md)
+ git rev-parse head
 
+git log 
  
+
+##  Update the deployment Scipt
+
+Use the Git SHA and latest to build
+
+use SHA in the kubernetes deployment
+
+## Add postgres secret to GCLOUD
 
 

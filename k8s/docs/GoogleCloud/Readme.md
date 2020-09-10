@@ -18,3 +18,13 @@ Shut down the cluster
 
 
 ![Travis Workflow](../../TravisWF.png)
+
+
+#Git SHA
+
+ git rev-parse head
+ 1[Git_sha](useGit_sha.png)
+
+ Use the sha for debugging
+
+ ![Debug](Debug.png)

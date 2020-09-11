@@ -11,7 +11,11 @@
 ø Changes.               - 
 ```
 
+<<<<<<< HEAD
 ## Let's Encrypt
+=======
+## [Let's Encrypt](FixLetsEncrypt)
+>>>>>>> master
 
 ![Let'sEncrypt](LetsEncrypt.png)
 
@@ -19,3 +23,5 @@
 Helm tool.  
 
 domain name. fib.jaynejacobs.com
+
+

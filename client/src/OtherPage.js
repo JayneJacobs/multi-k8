@@ -6,6 +6,8 @@ export default () => {
     <div>
       Im some other page
       <Link to="/">Go back to home page!</Link>
+      <Link to="http://jaynejacobs.com">Jayne's Website</Link>
+      <Link to="https://gopherclub.jaynejacobs.com/">Gopher Club</Link>
     </div>
   );
 };

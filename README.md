@@ -47,5 +47,3 @@ Use the Git SHA and latest to build
 use SHA in the kubernetes deployment
 
 ## Add postgres secret to GCLOUD
-
-

@@ -28,3 +28,5 @@ Shut down the cluster
  Use the sha for debugging
 
  ![Debug](Debug.png)
+
+[ Update Workflow](UpdateWorkflow)
